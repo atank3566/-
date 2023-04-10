@@ -1,0 +1,11 @@
+a,b = map(int, input().split())
+q = a+b
+w = a-b
+e = a*b
+r = a//b
+t = a%b
+print(q)
+print(w)
+print(e)
+print(r)
+print(t)
