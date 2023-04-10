@@ -1,0 +1,9 @@
+n = int(input())
+arr1 = list(map(int, input().split()))
+arr2 = []
+max_score = max(arr1)
+for score in arr1:
+    arr2.append(score/max_score*100)
+avr = sum(arr2)/n
+print(avr)
+# x/m*100
