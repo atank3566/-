@@ -1,0 +1,4 @@
+a = "??!"
+q = input()
+w = q + a
+print(w)
