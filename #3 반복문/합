@@ -1,0 +1,8 @@
+n = int(input())
+max = 0
+for i in range(n,0,-1):
+    if i == 0:
+        break
+    max+=i
+
+print(max)
