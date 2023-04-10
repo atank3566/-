@@ -1,0 +1,9 @@
+a = int(input())
+b = int(input())
+q = (b%10) * a
+w = ((b%100)//10) * a
+e = ((b-(b%100))//100) * a
+r = a*b
+arr = (q,w,e,r)
+for i in arr:
+    print(i)
