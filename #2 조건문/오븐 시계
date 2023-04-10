@@ -1,0 +1,11 @@
+a,b = map(int, input().split())
+c = int(input())
+c_1 = (b+c) // 60 # 분에서 시로 뽑아내는 과정
+c_2 = (b+c)%60 # 시 뽑아내고 남은 분
+
+if a >= 23:
+    print(c_1-1, c_2)
+elif a + c_1 >= 24:
+    print(a+c_1-24, c_2)
+else:
+    print(a+c_1, c_2)
