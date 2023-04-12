@@ -1,3 +1,3 @@
-# Baekjoon practice
+# Baekjoon Practice
 
-use python
+Use python
