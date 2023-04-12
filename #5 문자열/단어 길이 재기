@@ -1,0 +1,3 @@
+q = input()
+num = len(q)
+print(num)
