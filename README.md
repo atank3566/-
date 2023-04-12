@@ -1,1 +1,3 @@
 # Baekjoon practice
+
+use python
