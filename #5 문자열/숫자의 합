@@ -1,0 +1,9 @@
+n = int(input())
+k = input()
+sum = 0
+for i in range(n):
+    l = int(k[i])
+    sum += l
+print(sum)
+
+
